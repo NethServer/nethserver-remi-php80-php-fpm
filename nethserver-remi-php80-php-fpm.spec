@@ -15,6 +15,8 @@ Requires: php80-php-pdo, php80-php-tidy, php80-php-mysqlnd
 Requires: php80-php-soap, php80-php-pgsql
 Requires: php80-php-pecl-apcu, php80-php-intl
 Requires: php80-php-opcache
+# specific dependencies from remi to get same PHP modules list of RH SCL
+Requires: php80-php-xml, php80-php-pecl-zip, php80-php-process
 
 %description
 Basic support for PHP 80 using SCL of remi repository
