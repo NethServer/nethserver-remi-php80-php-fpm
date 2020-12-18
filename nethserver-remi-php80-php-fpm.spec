@@ -40,5 +40,8 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Dec 18 2020 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.0-1
+- PHP80 SCL from remi  - NethServer/dev#6356
+
 * Mon Dec 07 2020 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.0-1
 - Initial release of PHP80 for NethServer
