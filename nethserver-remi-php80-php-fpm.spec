@@ -1,5 +1,5 @@
 Name: nethserver-remi-php80-php-fpm
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
 Summary: NethServer remi-php80-php-fpm configuration
 License: GPL
@@ -40,6 +40,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Oct 22 2026 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.1-1
+- PHP critical RCE vulnerabilities (CVE-2026-109618 / CVE-2026-109619) - NethServer/dev#8256
+
 * Fri Dec 18 2020 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.0-1
 - PHP80 SCL from remi  - NethServer/dev#6356
 
