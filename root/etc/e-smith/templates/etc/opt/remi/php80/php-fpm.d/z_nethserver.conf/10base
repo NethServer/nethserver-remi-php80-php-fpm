@@ -2,5 +2,7 @@
     my $port = ${'php80-php-fpm'}{TCPPorts} || 9008;
 
     $OUT='[www]
-listen = 127.0.0.1:'.$port;
+listen = 127.0.0.1:'.$port.'
+; CVE-2026-109619 (GHSA-6wmf-4rv5-p3rp): serve one request per worker
+pm.max_requests = 1';
 }
